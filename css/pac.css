@@ -122,7 +122,7 @@
     top: -60px;
     width: 1px;
     z-index: -1;
-    animation: boca .95s infinite linear; 
+    animation: boca .95s infinite linear;  /* isto vai fazer a boca do pacman mexer*/
  }
 
 .come-tras {
@@ -144,7 +144,7 @@
     top: 70%;
     width: 100%;
     z-index: 1;
-     animation: fantasmas 10s infinite linear;
+     animation: fantasmas 10s infinite linear; /* isto vai fazer os fantasmas mover*/
 }              
 .fantasma {
     border-radius: 50% 50% 0 0;
@@ -163,7 +163,7 @@
      border-bottom:20px solid black;
      border-left:10px solid transparent;
      border-right:10px solid transparent; 
-    animation: patitas .5s infinite linear;
+    animation: patas .5s infinite linear; /* isto vai fazer com as nossas patas movam */
 }
 .fantasma:before {left: 5px;}
 .fantasma:after {right: 5px;}
@@ -181,7 +181,7 @@
     margin: 15px 0 0 0px;
     border: 1px solid #000000;
     border-radius: 100%;
-    animation: olhos 8s infinite linear;
+    animation: olhos 8s infinite linear;/* isto vai fazer com que os olhos rodem e movam */
 }
 .olho:before {
     content:'';
@@ -203,7 +203,7 @@
     50% { left: 50%;}
     100% { left: 100%;}
        }
-@keyframes patitas { 
+@keyframes patas { 
     0% {border-left:5px solid transparent; border-right:5px solid transparent;}
     25% {border-left:10px solid transparent; border-right:10px solid transparent;}
     50% {border-left:15px solid  transparent; border-right:15px solid transparent;}
