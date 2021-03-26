@@ -15,9 +15,9 @@ function onSpeak(event) {
 }
 
 function escreverTexto(message) {
-  menssagemElement.innerHTML = `
+  mensagemElement.innerHTML = `
     <div>A sua resposta: </div>
-    <span class="box">${message}</span>
+    <span class="box">${mensagem}</span>
   `;
 }
 
