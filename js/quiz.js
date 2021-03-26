@@ -1,5 +1,5 @@
 var correct= 3
-const messageElement = document.getElementById("msg");
+const mensagemElement = document.getElementById("msg");
 
 
 window.SpeechRecognition =
