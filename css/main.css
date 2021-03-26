@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://i.imgur.com/jM6zFWg.gif);
+
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vidsom{ display: none;}
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 4vh;
+}
+.divlogo {
+    
+  text-align: center;
+    padding-top: 40px;
+
+}
+.audiobotao{margin-left:3vh;margin-top:3vh;}
+
+.div1 {
+    background-color: #798079;
+    opacity: 0.5;
+    height: 3vh;
+    margin-top: 25%;
+    
+    width: 15vh;
+    border-radius: 25px;
+  margin:auto;
+}
+.div1:hover{opacity:1;}
+
+.div3 {
+    
+    margin-top:15vh;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+  
+}
+  .vidsom{ display: none;}
+
+.div4 {
+    float: left;
+    margin-left: 30%;
+    margin-top: 1%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    word-spacing: normal;
+}
+
+.link1 {
+    float: left;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.link2 {
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.vaca{float:left;text-align:center;margin-top:5%}
+.homeimage3{margin-left:2%}
+.homeimage2{margin-left:2%}
+button {
+  background-image: url(https://i.ibb.co/FmkJrsV/Png-Item-2559501.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+ background-size: contain;
+
+  height: 30px;
+  width: 30px;
+  border: none;
+background-color: transparent;
+}
+
+button span {
+  display: none;
+}
