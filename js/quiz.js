@@ -9,20 +9,20 @@ recognition.start();
 
 
 function onSpeak(event) {
-  const message = event.results[0][0].transcript;
-  escreverTexto(message);
-  verificar(message);
+  const mensagem = event.results[0][0].transcript;
+  escreverTexto(mensagem);
+  verificar(mensagem);
 }
 
 function escreverTexto(message) {
-  messageElement.innerHTML = `
+  menssagemElement.innerHTML = `
     <div>A sua resposta: </div>
     <span class="box">${message}</span>
   `;
 }
 
-function verificar(message) {
-  const answer = +message;
+function verificar(mensagem) {
+  const answer = +mensagem;
   
   if (answer === correct) {
     document.body.innerHTML = `
@@ -35,7 +35,7 @@ function verificar(message) {
   if (answer === correct){ setTimeout(function(){ window.location.href= 'load.html';}, 3500);}
 
   else if (answer !== correct ){
-    messageElement.innerHTML += "<div>Resposta errada :/</div>";
+ mensagemElement.innerHTML += "<div>Resposta errada :/</div>";
   } 
 }
 
