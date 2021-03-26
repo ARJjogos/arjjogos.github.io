@@ -29,19 +29,19 @@ function imageEnlargeee() {
  }
 function imageReset() {
 
- document.getElementById('1').style.height="16%";
- document.getElementById('1').style.width="16%";
+ document.getElementById('1').style.height="18%";
+ document.getElementById('1').style.width="18%";
  document.getElementById('1').style.posit='';
  }
 function imageResett() {
 
- document.getElementById('2').style.height="16%";
- document.getElementById('2').style.width="16%";
+ document.getElementById('2').style.height="18%";
+ document.getElementById('2').style.width="18%";
 document.getElementById('2').style.position='';
  }
 function imageResettt() {
 
- document.getElementById('3').style.height="16%";
- document.getElementById('3').style.width="16%";
+ document.getElementById('3').style.height="18%";
+ document.getElementById('3').style.width="18%";
  document.getElementById('3').style.position='';
  }
