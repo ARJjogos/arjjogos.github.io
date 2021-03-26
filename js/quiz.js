@@ -28,7 +28,7 @@ function verificar(message) {
     document.body.innerHTML = `
           <h2>Parabéns! Acertas-te! Vais ser redirecionado em alguns segundos... <br><br>
           A resposta era (3) Uma linguagem de programação</h2>
-          <button class="play-again" id="play-again">Play Again</button>
+          
         `;
     
   } 
