@@ -181,7 +181,7 @@
     margin: 15px 0 0 0px;
     border: 1px solid #000000;
     border-radius: 100%;
-    animation: ojos 8s infinite linear;
+    animation: olhos 8s infinite linear;
 }
 .olho:before {
     content:'';
