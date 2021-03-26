@@ -44,7 +44,8 @@ h2 {
 }
 
 h2 {
-  font-size: 1.17rem;
+  font-size: 1.17rem; /*O rem é usado interligado ao fontsize parent inicial, o tamanho em si deveria ja estar
+  defenido pelo proprio H2 que tem o seu devido tamanho, mas deste modo sei que vai adaptar-se melhor a qualquer pagina */
 }
 
 p {
