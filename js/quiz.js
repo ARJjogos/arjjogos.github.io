@@ -1,5 +1,5 @@
 var correct= 3
-const mensagemElement = document.getElementById("msg");
+const messageElement = document.getElementById("msg");
 
 
 window.SpeechRecognition =
@@ -9,20 +9,20 @@ recognition.start();
 
 
 function onSpeak(event) {
-  const mensagem = event.results[0][0].transcript;
-  escreverTexto(mensagem);
-  verificar(mensagem);
+  const message = event.results[0][0].transcript;
+  escreverTexto(message);
+  verificar(message);
 }
 
-function escreverTexto(mensagem) {
-  mensagemElement.innerHTML = `
+function escreverTexto(message) {
+  messageElement.innerHTML = `
     <div>A sua resposta: </div>
-    <span class="box">${mensagem}</span>
+    <span class="box">${message}</span>
   `;
 }
 
-function verificar(mensagem) {
-  const answer = +mensagem;
+function verificar(message) {
+  const answer = +message;
   
   if (answer === correct) {
     document.body.innerHTML = `
@@ -35,7 +35,7 @@ function verificar(mensagem) {
   if (answer === correct){ setTimeout(function(){ window.location.href= 'load.html';}, 3500);}
 
   else if (answer !== correct ){
- mensagemElement.innerHTML += "<div>Resposta errada :/</div>";
+ messageElement.innerHTML += "<div>Resposta errada :/</div>";
   } 
 }
 
