@@ -14,7 +14,7 @@ function onSpeak(event) {
   verificar(mensagem);
 }
 
-function escreverTexto(message) {
+function escreverTexto(mensagem) {
   mensagemElement.innerHTML = `
     <div>A sua resposta: </div>
     <span class="box">${mensagem}</span>
